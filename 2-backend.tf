@@ -15,6 +15,7 @@ data "terraform_remote_state" "vpc" {
   backend = "remote"
 
   config = {
+    hhostname = "app.terraform.io"
     organization = "aws-arch"
 
     workspaces = {
