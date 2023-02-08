@@ -22,5 +22,4 @@ module "efs_services_sg" {
   }]
 
   egress_rules = ["all-all"]
-
 }
