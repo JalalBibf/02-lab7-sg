@@ -15,7 +15,6 @@ data "terraform_remote_state" "vpc" {
   backend = "remote"
 
   config = {
-    hostname = "app.terraform.io"
     organization = "JalalBibf"
 
     workspaces = {
